@@ -51,7 +51,7 @@ main .techs .cards-container .card {
 }
 
 main .techs .cards-container .card img {
-    width: 100%;
+    width: 70%;
 }
 
 main .techs .cards-container .card:hover {
