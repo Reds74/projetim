@@ -1,0 +1,45 @@
+body{
+	background-color: #D3D3D3;
+	font-size: 13px;
+	font-family: sans-serif;
+	border-style: groove;
+}
+
+header{
+	margin-left: 100px;
+}
+
+h1{
+	font-size: 45px;
+	text-shadow: 2px 2px 1px #111111;
+}
+
+h2{
+	margin-left: 5px;
+}
+
+ul{
+	margin-left: -25px;
+}
+
+#contato{
+	font-family: monospace;
+	font-size: 15px;
+	margin-left: 100px;
+}
+
+#forma{
+	margin-left: 100px;
+}
+
+#objpro{
+	margin-left: 100px;
+}
+
+#expert{
+	margin-left: 100px;
+}
+
+#cce{
+	margin-left: 100px;
+}

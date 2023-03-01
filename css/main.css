@@ -79,3 +79,9 @@ main figure figcaption {
     font-size: 1.5em;
     justify-content: center;
 }
+
+main figure a {
+    display: flex;
+    font-size: 1.1em;
+    justify-content: center;
+}

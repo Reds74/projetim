@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Curriculo RENE</title>
+        <meta name="description" content="Curriculo">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+	<body>
+		<header>
+    		<h1>Renê Dias Soares</h1>
+    	</header>
+		    <hr>
+		        <div id="contato">
+			        <p> 
+			            Contatos: Celular (31)99969-7557. Residencial: (31)3607-2477<br>
+			            Brasileiro, solteiro, <a id="ano"></a> anos, CNH: Categoria B,<br>
+			            Rua Beira Rio, n.40, Bairro Siderúrgica, Sabará-MG – CEP: 34.515-165<br>
+						e-mail: rene.soares@outlook.com / rene.soares@gmail.com<br> 
+			        </p>
+					<script>
+						function idade(dateString) {
+							const today = new Date();
+							const birthDate = new Date(dateString);
+							let age = today.getFullYear() - birthDate.getFullYear();
+							const m = today.getMonth() - birthDate.getMonth();
+							if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+								age--;
+							}
+							return age;
+						}
+						document.getElementById("ano").innerHTML = idade("1974/03/27");
+					</script>
+					
+				</div>
+		        <hr>
+				
+	        <h2>Formação:</h2>
+	        	<div id="forma">
+	                <p>Técnico em Administração – Centro de Ensino Leonardo da Vinci de Brasília – 1996</p> 
+	                <p>Graduado em Redes de Computadores -  Faculdade Estácio de Sá de Belo Horizonte – 2016</p>
+	                <p>Graduado em Análise e Desenvolvimento de Sistemas - Faculdade Estácio de Sá de Belo Horizonte - 2021</p>
+	            </div>
+	        <hr>
+
+	        <h2>Objetivo Profissional:</h2>
+	        	<div id="objpro">
+	        		<p>Analista de Sistemas / Analista de Redes / Segurança da Informação/ Gerenciamento de Sistemas/ Desenvolvimento/ Help-Desk.</p>
+	        	</div>
+	         <hr>
+
+	        <h2>Experiência:</h2>
+	        	<div id="expert">
+		            <p>04/1998 a 12/2002: CEF – CAIXA ECONOMICA FEDERAL</p>
+		                <p>Auxiliar de Informática I (Rosch Adm. Serviços Ltda. / INFOCOOP Cooperativa de Serviços)</p>
+		                    <p>Atividades: Atuando na Gestão e Análise de Contas do FGTS, Ofícios Jurídicos, Rotinas de RH, Rescisão Contratual e Cálculos.</p><br>
+
+		            <p>08/2003 a 05/2004: NORONHA & SESSO CONSULTORIA EMPRESARIAL S/C</p>
+		                <p>Consultor de Orçamento Público (Auxiliar de Escritório e Supervisão de Informática)</p>
+		                    <p>Atividades: Atuação como Consultor Orçamentário, realizando análise do Orçamento Público da União, Pesquisa e Liberação de Dotações Orçamentárias e Emendas, prestando Consultoria Parlamentar e Assessoria.</p><br>
+
+		            <p>10/2004 a 09/2005: MMC SISTEMAS E CONSULTORIA LTDA</p>
+		                <p>Técnico de Suporte I</p>
+		                    <p>Atividades: Atuando na área de Tecnologia da Informação; efetuando análise, reparo e criação de banco de dados SQL; instalação e configuração do sistema em rede; suporte à programação Delphi, atendimento ao cliente, tratativas e expressões SQL; Acesso remoto; Internet e Treinamento. Implantação de Sistemas de dados SQL. </p><br>
+
+		            <p>08/2006 a 11/2008: BANCO BMG S/A</p>         
+		                <p>Operador de Crédito e Telemarketing (Prestaserv Serviços)</p>
+		                    <p>Atividades: Atendimento a clientes via 0800, receptivo e ativo, operando no sistema financeiro de consignações, crédito e bens duráveis, realizando análise de crédito, liquidação, cartões, renegociações e televendas.</p><br>
+
+		            <p>12/2008 a 02/2010: CEF – CAIXA ECONOMICA FEDERAL</p>
+		                <p>Operador de Telemarketing (Plansul Consultoria S/C)</p>
+		                    <p>Atividades: Atendimento a clientes via 0800, receptivo, operando no sistema da CAIXA, terceirizado; com informações sobre PIS, Seguro Desemprego, Agendamentos, FGTS e informações gerais. Atuação no Ativo implementando Capitalização de Títulos CAIXA, Seguro de Vida e Cartões da CAIXA.</p><br>
+
+		            <p>08/2010 a 02/2012: TNL CONTAX S/A</p>
+		                <p>Operador de Telemarketing (Oi)</p>
+		                    <p>Atividades: Atendimento 0800 OCT (Oi Conta Total), Planos e Informações; Campanhas; Retenção.</p><br>
+
+		            <p>02/2012 a atualmente: S/A ESTADO DE MINAS – DIÁRIOS ASSOCIADOS</p>
+		                <p>Analista de Suporte Computacional</p>
+		                    <p>Atividades: Atendimento Técnico do Provedor UAI, Manutenção e Configuração de redes, WI-FI, Acesso Remoto, MODEMS e Roteadores, e-mail e gerenciadores de e-mail, Active Directory, Suporte Computacional da empresa.</p><br>
+		        </div>
+	        <hr>
+
+	        <h2>Cursos e Conhecimentos extracurriculares:</h2>
+	        	<div id="cce">
+		            <ul>
+		                <li>Curso de Operador de Microcomputador e Digitação (PRODADOS Informática / Brasília-DF – 1992)</li>
+		                <li>Curso de Aperfeiçoamento de Informática (SENAC/DF – 1996)</li>
+		                <li>Curso de Montagem e Manutenção de Microcomputadores (TRAINING2000/SENAI-DF – 2003)</li>
+		                <li>Curso do Sistema Operacional LINUX-introdução (SENAC/MG – 2004)</li>
+		                <li>Curso de Lógica de Programação Aplicada (SENAC/MG – 2004).</li>
+		            </ul>
+		        	            
+	            	<p>Inglês: Básico / Espanhol: Básico.</p>
+
+	            	
+	            	<p>Windows (completo); Office (completo); Redes, TCP/IP; SQL (Banco de Dados); Programação Simples em Pascal e noções de Delphi; Noções de Python; Access (Básico); LINUX, Programação SHELL SCRIPT; Segurança de Rede e Computadores; Modems e Roteadores; Hardware; Computação Gráfica; Internet; MS-DOS; Cálculos de FGTS; Administrativo/Financeiro; Licitações, Ofícios e Atas; Análise de Orçamento Público (SIAFI), LDO;  Lançamento de Notas Fiscais; Livro Fiscal, Atendimento Call Center (0800) receptivo/ativo – telemarketing. Pequena experiência em venda técnica de periféricos, hardware, montagem e manutenção de microcomputadores.</p>
+	            	
+	            </div>
+	       
+    </body>
+</html>
