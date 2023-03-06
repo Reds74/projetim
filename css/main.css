@@ -85,3 +85,24 @@ main figure a {
     font-size: 1.1em;
     justify-content: center;
 }
+.btn {
+    display: inline-flex;
+    background: #0000;
+    border-radius: 2rem;
+    box-shadow:  0 0 1rem #2672ff;
+    font-size: 1.0rem;
+    color: #ffff;
+    letter-spacing: .2rem;
+    padding: 20px;
+    width: 200px;
+    height: 0px;
+    margin-left: 100px;
+    font-weight: 600;
+    transition: .5s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
