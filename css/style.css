@@ -28,8 +28,8 @@ body {
 .techs {
     width: 1366px;
     max-width: 100%;
-    margin: 0 auto;
-    padding: 0 0px;
+    padding-left: 500px;
+    
 }
 
 header {
@@ -225,7 +225,7 @@ footer span {
 /* CARDS =================================*/
 
 .hero-header .techs {
-    margin-left: 400px;
+    padding-left: 600px;
     margin-top: 100px;
     
 }
@@ -233,10 +233,8 @@ footer span {
 .hero-header .techs .cards-container {
     display: flex;
     align-items: center;
-}
-
-.hero-header .techs .cards-container {
     margin-top: 20px;
+    
 }
 
 .hero-header .techs .cards-container .card {
@@ -245,8 +243,8 @@ footer span {
     padding: 10px;
     background-color: #eee;
     border-radius: 50px;
-    margin-right: 0.9em;
-    margin-left: 1.9em;
+    margin-right: 0.6em;
+    margin-left: 1.2em;
     cursor: pointer;
 
     display: flex;
