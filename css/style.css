@@ -25,6 +25,13 @@ body {
     padding: 0 0px;
 }
 
+.techs {
+    width: 1366px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
 header {
     padding: 30px;
     display: flex;
@@ -218,8 +225,8 @@ footer span {
 /* CARDS =================================*/
 
 .hero-header .techs {
-    margin-left: 33.0rem;
-    margin-top: 6.5rem;
+    margin-left: 400px;
+    margin-top: 100px;
     
 }
 
