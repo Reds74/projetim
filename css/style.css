@@ -402,6 +402,8 @@ footer span {
         grid-gap: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
+        max-width: 100%;
+        padding-left: 100px;
         align-items: center;
     }
 }
@@ -470,6 +472,8 @@ footer span {
         grid-gap: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
+        max-width: 100%;
+        padding-left: 100px;
         padding-top: 2.2rem;
         padding: 0.9vh;
     }
@@ -480,7 +484,8 @@ footer span {
         grid-gap: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
+        max-width: 100%;
+        padding-left: 100px;
         padding-top: 2.2rem;
         padding: 0.9vh;
     }
@@ -561,7 +566,8 @@ footer span {
         grid-gap: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
+        max-width: 100%;
+        padding-left: 100px;
         padding-top: 2.2rem;
         padding: 0.9vh;
     }
