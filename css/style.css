@@ -325,6 +325,17 @@ footer span {
 
     }
 
+    .hero-header .techs .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 100%;
+        padding-left: 100px;
+
+    }
+
 }
 
 @media only screen and (max-width:768px)
@@ -404,7 +415,9 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         padding-left: 100px;
-        align-items: center;
+        margin: 0 auto;
+        padding: 0 0px;
+        
     }
 }
 
@@ -474,8 +487,8 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         padding-left: 100px;
-        padding-top: 2.2rem;
-        padding: 0.9vh;
+        margin: 0 auto;
+        padding: 0 0px;
     }
 
     .hero-header .techs .cards-container {
@@ -486,8 +499,8 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         padding-left: 100px;
-        padding-top: 2.2rem;
-        padding: 0.9vh;
+        margin: 0 auto;
+        padding: 0 0px;
     }
 }
 
@@ -555,8 +568,10 @@ footer span {
         grid-gap: 20px;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-top: 2.2rem;
-        padding: 0.9vh;
+        max-width: 100%;
+        padding-left: 100px;
+        margin: 0 auto;
+        padding: 0 0px;
         
     }
 
@@ -568,8 +583,8 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         padding-left: 100px;
-        padding-top: 2.2rem;
-        padding: 0.9vh;
+        margin: 0 auto;
+        padding: 0 0px;
     }
 }
 
