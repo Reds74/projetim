@@ -316,23 +316,24 @@ footer span {
     
     .hero-header .techs {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
-        padding-top: 2.2rem;
-        padding: 0.9vh;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 0px;
 
     }
 
     .hero-header .techs .cards-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
         flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        padding-left: 100px;
+        margin: 0 auto;
+        padding: 0 0px;
 
     }
 
@@ -388,7 +389,7 @@ footer span {
     }
 
     .container {
-        flex-direction: column;
+        flex-direction: row;
         padding-top: 2rem;
     }
 
@@ -398,23 +399,21 @@ footer span {
 
     .hero-header .techs {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
-        padding-top: 2.2rem;
-        padding: 0.9vh;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 0px;
 
     }
 
     .hero-header .techs .cards-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        padding-left: 100px;
         margin: 0 auto;
         padding: 0 0px;
         
@@ -471,7 +470,7 @@ footer span {
     }
 
     .container {
-        flex-direction: column;
+        flex-direction: row;
         padding-top: 2rem;
     }
 
@@ -481,24 +480,20 @@ footer span {
 
     .hero-header .techs {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        padding-left: 100px;
         margin: 0 auto;
         padding: 0 0px;
     }
 
     .hero-header .techs .cards-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        padding-left: 100px;
         margin: 0 auto;
         padding: 0 0px;
     }
@@ -554,7 +549,7 @@ footer span {
     }
 
     .container {
-        flex-direction: column;
+        flex-direction: row;
         padding-top: 2rem;
     }
 
@@ -564,12 +559,10 @@ footer span {
 
     .hero-header .techs {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        padding-left: 100px;
         margin: 0 auto;
         padding: 0 0px;
         
@@ -577,12 +570,10 @@ footer span {
 
     .hero-header .techs .cards-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        padding-left: 100px;
         margin: 0 auto;
         padding: 0 0px;
     }
