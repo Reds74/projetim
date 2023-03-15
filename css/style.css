@@ -41,6 +41,12 @@ header {
         
 }
 
+aside {
+    display: flex;
+    margin-left: auto;
+    margin-top: 1.9rem;
+}
+
 .logo {
     display: inline-flex;
     justify-content: center;
@@ -233,7 +239,7 @@ footer span {
 .hero-header .techs .cards-container {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 60px;
     
 }
 
@@ -320,7 +326,7 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
 
     }
 
@@ -330,17 +336,7 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
-
-    }
-
-    .hero-header .techs h2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-        margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
 
     }
 
@@ -411,7 +407,7 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
 
     }
 
@@ -421,19 +417,10 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
         
     }
 
-    .hero-header .techs h2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-        margin-top: 20px;
-        padding: 0 0px;
-
-    }
 }
 
 @media only screen and (max-width:1366px)
@@ -501,7 +488,9 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        /*margin: auto;*/
+        padding: auto;
+        
     }
 
     .hero-header .techs .cards-container {
@@ -510,18 +499,9 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
     }
 
-    .hero-header .techs h2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-        margin-top: 20px;
-        padding: 0 0px;
-
-    }
 }
 
 @media only screen and (max-width:540px)
@@ -589,7 +569,7 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
         
     }
 
@@ -599,18 +579,9 @@ footer span {
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: auto;
     }
-
-    .hero-header .techs h2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-        margin-top: 20px;
-        padding: 0 0px;
-
-    }
+   
 }
 
 
