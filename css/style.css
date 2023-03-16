@@ -41,12 +41,6 @@ header {
         
 }
 
-aside {
-    display: flex;
-    margin-left: auto;
-    margin-top: 1.9rem;
-}
-
 .logo {
     display: inline-flex;
     justify-content: center;
@@ -239,7 +233,7 @@ footer span {
 .hero-header .techs .cards-container {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
     
 }
 
@@ -273,10 +267,10 @@ footer span {
 
 @media only screen and (max-width:930px)
 {
-    nav .togglebtn {
+    /*nav .togglebtn {
         display: initial;
     }
-    /* for toggle button */
+    // for toggle button // 
     .click {
         top: 45px;
     }
@@ -318,25 +312,24 @@ footer span {
     }
     nav .navlinks.open {
         right: 0;
-    }
+    }*/
     
-    .hero-header .techs {
+    .techs {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
-
+        
     }
 
-    .hero-header .techs .cards-container {
+    .techs .cards-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
+        
 
     }
 
@@ -344,10 +337,10 @@ footer span {
 
 @media only screen and (max-width:768px)
 {
-    nav .togglebtn {
+    /*nav .togglebtn {
         display: initial;
     }
-    /* for toggle button */
+    // for toggle button //
     .click {
         top: 45px;
     }
@@ -389,7 +382,7 @@ footer span {
     }
     nav .navlinks.open {
         right: 0;
-    }
+    } */
 
     .container {
         flex-direction: row;
@@ -401,23 +394,22 @@ footer span {
         padding: 40px 0px;
     }
 
-    .hero-header .techs {
-        display: flex;
+    .techs {
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
+       
 
     }
 
-    .hero-header .techs .cards-container {
+    .techs .cards-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
+        
         
     }
 
@@ -425,10 +417,10 @@ footer span {
 
 @media only screen and (max-width:1366px)
 {
-    nav .togglebtn {
+    /*nav .togglebtn {
         display: initial;
     }
-    /* for toggle button */
+    // for toggle button //
     .click {
         top: 45px;
     }
@@ -470,7 +462,7 @@ footer span {
     }
     nav .navlinks.open {
         right: 0;
-    }
+    } */
 
     .container {
         flex-direction: row;
@@ -482,34 +474,34 @@ footer span {
         padding: 40px 0px;
     }
 
-    .hero-header .techs {
-        display: flex;
+    .techs {
+        /*display: flex;*/
         flex-direction: row;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
         max-width: 100%;
         margin-top: 20px;
-        /*margin: auto;*/
-        padding: auto;
+        padding: 0px 20px;
         
+                
     }
 
-    .hero-header .techs .cards-container {
+    .techs .cards-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
+               
     }
 
 }
 
 @media only screen and (max-width:540px)
 {
-    nav .togglebtn {
+    /*nav .togglebtn {
         display: initial;
     }
-    /* for toggle button */
+    // for toggle button //
     .click {
         top: 45px;
     }
@@ -551,7 +543,7 @@ footer span {
     }
     nav .navlinks.open {
         right: 0;
-    }
+    } */
 
     .container {
         flex-direction: row;
@@ -563,23 +555,21 @@ footer span {
         padding: 40px 0px;
     }
 
-    .hero-header .techs {
-        display: flex;
+    .techs {
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
-        
+       
     }
 
-    .hero-header .techs .cards-container {
+    .techs .cards-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-        padding: auto;
+       
     }
    
 }
