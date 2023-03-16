@@ -315,18 +315,12 @@ footer span {
     }*/
     
     .techs {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
         
     }
 
     .techs .cards-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
         
@@ -395,18 +389,12 @@ footer span {
     }
 
     .techs {
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
-       
-
+      
     }
 
     .techs .cards-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
         
@@ -475,20 +463,12 @@ footer span {
     }
 
     .techs {
-        /*display: flex;*/
-        flex-direction: row;
-        /*justify-content: space-between;*/
         max-width: 100%;
         margin-top: 20px;
-        padding: 0px 20px;
-        
-                
+                      
     }
 
     .techs .cards-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
                
@@ -546,7 +526,6 @@ footer span {
     } */
 
     .container {
-        flex-direction: row;
         justify-content: space-between;
         padding-top: 2rem;
     }
@@ -556,17 +535,12 @@ footer span {
     }
 
     .techs {
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
        
     }
 
     .techs .cards-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         max-width: 100%;
         margin-top: 20px;
        
