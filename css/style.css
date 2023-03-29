@@ -67,31 +67,35 @@ header {
     color: #fff;
 }
 
-/*nav .togglebtn {
-    width: 10px;
-    height: 10px;
-    margin-left: 40px;
-    margin-right: 30px;
-    align-items: center;
-    top: 30px;
-    right: 30%;
-    cursor: pointer;
+nav {
     display: flex;
-    color: #fff;
-    justify-content: center;
-    
-}*/
+    column-gap: 25px;
+}
 
 header nav a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: 
+            outline-offset, outline-color,
+            background-color;
+    transition-duration: 0.25s;
     color: #e5e5e5;
     margin-right: 1.3em;
     font-size: 1.9em;
+    
 }
 
 header nav a:hover {
     color: #007ced;
     margin-right: 1.3em;
     font-size: 1.9em;
+    outline-offset: 4px;
+    animation: shake 0.25s;
     
 }
 
@@ -238,8 +242,8 @@ footer span {
 }
 
 .hero-header .techs .cards-container .card {
-    width: 100px;
-    height: 100px;
+    width: 6em;
+    height: 6em;
     padding: 0.9vh;
     background-color: #eee;
     border-radius: 2.9rem;
@@ -264,6 +268,10 @@ footer span {
 
 
 /* Responsiv design & displaying navbar for small screen */
+
+@-ms-viewport {
+    width: device-width;
+  }
 
 @media only screen and (max-width:930px)
 {
